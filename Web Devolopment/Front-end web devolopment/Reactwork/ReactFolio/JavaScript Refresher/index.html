@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        "use strict";
+       // let a = 34;
+       let a = 'This is me';
+      // const a = 45;
+       a = 4554 + 4;
+     console.log(a);
+     // Numbers
+     // Objects
+     // Booleans - true or false
+     // String
+     // undefined
+     //null
+
+    function hello(){
+        console.log("Good Morning");
+    }
+     let obja = {
+        r:34,
+        m:64,
+        func: function myfunc(Number){
+            console.log("This Number is" + number);
+        }
+     }
+
+    document.addEventListener("click", function click(){
+        console.log("clicker");
+        // alert("hello");
+        let conf = confirm("Are you sure?");
+        console.log(conf);
+    })
+
+    // for (let index =0; index < array.length; index++){
+    //    const element = array[index];
+    //}
+
+    //let arr = [34,21,23] ;
+    // function myfunc(Number){
+    // console.log("This Number is" + this);
+    // }
+    //let myfunc=(Number)=>{
+    //        console.log("This Number is" + this);
+    //}
+    // myfunc();
+    let mobj = {
+        a:this,
+        myfunc : function(number){
+            console.log(this);
+        }
+    }
+    mobj.myfunc();
+    console.log(mobj.a);
+
+
+    //       callback
+     setTimeout(() =>{
+        console.log("yayy")
+     }, 3000);
+     console.log("I'm Everywhere ")
+
+    </script>
+</head>
+<body>
+    <h1> I am learning Js </h1>
+  
+</body>
+</html>
