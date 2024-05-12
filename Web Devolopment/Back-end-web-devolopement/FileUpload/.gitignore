@@ -1,0 +1,32 @@
+# dependencies
+/node_modules
+/ .pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# Secret
+.env
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignore compiled files
+*.class
+*.jar
+*.war
+
+# Ignore IDE files
+.idea/
+.vscode/
+
+# Ignore logs
+*.log
+
+# Ignore temporary files
+temp/
